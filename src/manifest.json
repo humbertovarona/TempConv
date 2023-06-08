@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Temperature Converter",
+  "version": "1.0",
+  "description": "Converts temperature between Celsius, Kelvin, and Fahrenheit",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "TempConv48.png",
+      "128": "TempConv128.png"
+    }
+  },
+  "host_permissions": ["<all_urls>"]
+}
+
